@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": "^7.1",
-        "divineomega/password_exposed": "^3.0.1",
+        "divineomega/password_exposed": "dev-master",
         "illuminate/contracts": "^5.1||^6.0||^7.0||^8.0"
     },
     "license": "LGPL-3.0-only",
@@ -27,5 +27,11 @@
     "require-dev": {
         "phpunit/phpunit": "^7.0||^8.0||^9.0",
         "php-coveralls/php-coveralls": "^2.0"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ziming/password_exposed"
+        }
+    ]
 }
